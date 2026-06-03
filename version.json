@@ -1,0 +1,7 @@
+{
+  "latest_version": "1.0",
+  "version_code": 1,
+  "release_notes": "Premiere version publique d'Undercover\n\nJeu de l'imposteur sur un seul telephone : 3 a 20 joueurs, generation\ndes paires de mots par IA, historique local avec cooldown de 3 semaines.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n",
+  "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/app-release.apk",
+  "min_supported_version": "1.0"
+}
