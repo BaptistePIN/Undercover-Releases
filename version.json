@@ -1,7 +1,7 @@
 {
-    "latest_version":  "1.0",
-    "version_code":  1,
-    "release_notes":  "test\n",
-    "download_url":  "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
-    "min_supported_version":  "1.0"
+  "latest_version": "1.1",
+  "version_code": 2,
+  "release_notes": "Version 1.1 (versionCode 2)",
+  "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
+  "min_supported_version": "1.0"
 }
