@@ -1,6 +1,6 @@
 # Undercover - Releases
 
-Application Android du jeu de l'imposteur : meme concept que le jeu Undercover, avec des mots generes par l'API Gemini et un historique local pour plus d'aleatoire.
+Application Android du jeu de l'imposteur : même concept que le jeu Undercover, avec des mots générés par l'API Gemini et un historique local pour plus d'aléatoire.
 
 ## 📥 Télécharger la dernière version
 
