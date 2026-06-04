@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.1",
-  "version_code": 2,
-  "release_notes": "Partage d'historique dans l'app + cooldown configurable\n\n- Onglet Partage dans l'historique : invitation par pseudo (recherche\n  avec debounce), invitations recues (accepter/refuser), envoyees\n  (annuler), partages actifs (mode auto/manuel par cote, revocation).\n  Parite fonctionnelle avec le site, sans back-office.\n- Connexion/inscription : sync inconditionnelle de l'historique du\n  compte + rapatriement du cooldown (SyncRepository.onSessionOpened).\n- Delai de reutilisation configurable (Parametres > Historique des\n  mots) : presets 1 sem a 2 mois + jamais reutiliser (0). Valeur locale,\n  poussee sur le compte via PATCH /api/me/settings si connecte.\n- Transfert complet des mots : le cache combine garde lastUsedAt et\n  isExcluded de chaque paire ; le cooldown LOCAL de chaque utilisateur\n  decide de la disponibilite des mots transferes.",
+  "latest_version": "1.0.4",
+  "version_code": 3,
+  "release_notes": "- Partage d'historique depuis l'app : invitations par pseudo, acceptation/refus, mode auto/manuel par partage\n- Synchronisation automatique de l'historique du compte des la connexion\n- Delai de reutilisation des mots configurable (1 semaine a jamais), synchronise avec le compte\n- Les mots partages gardent leur date d'utilisation : chacun applique son propre delai",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
