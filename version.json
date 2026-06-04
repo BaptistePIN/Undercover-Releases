@@ -1,7 +1,7 @@
 {
   "latest_version": "1.1",
   "version_code": 2,
-  "release_notes": "Correction du crash au demarrage apres reinstallation (AEADBadTagException)\n\nCause : allowBackup=true restaurait les prefs chiffrees apres une\nreinstallation alors que la cle maitre du Keystore avait ete supprimee\na la desinstallation -> dechiffrement impossible, crash en boucle.\n\n- PreferencesManager : auto-reparation, si le keyset est indechiffrable\n  le fichier securise est supprime et recree vierge (cle Gemini et\n  session a ressaisir) au lieu de crasher.\n- Manifest : allowBackup=false, les donnees ne survivent plus a une\n  desinstallation.",
+  "release_notes": "Partage d'historique dans l'app + cooldown configurable\n\n- Onglet Partage dans l'historique : invitation par pseudo (recherche\n  avec debounce), invitations recues (accepter/refuser), envoyees\n  (annuler), partages actifs (mode auto/manuel par cote, revocation).\n  Parite fonctionnelle avec le site, sans back-office.\n- Connexion/inscription : sync inconditionnelle de l'historique du\n  compte + rapatriement du cooldown (SyncRepository.onSessionOpened).\n- Delai de reutilisation configurable (Parametres > Historique des\n  mots) : presets 1 sem a 2 mois + jamais reutiliser (0). Valeur locale,\n  poussee sur le compte via PATCH /api/me/settings si connecte.\n- Transfert complet des mots : le cache combine garde lastUsedAt et\n  isExcluded de chaque paire ; le cooldown LOCAL de chaque utilisateur\n  decide de la disponibilite des mots transferes.",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
