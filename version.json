@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.4",
-  "version_code": 3,
-  "release_notes": "- Partage d'historique depuis l'app : invitations par pseudo, acceptation/refus, mode auto/manuel par partage\n- Synchronisation automatique de l'historique du compte des la connexion\n- Delai de reutilisation des mots configurable (1 semaine a jamais), synchronise avec le compte\n- Les mots partages gardent leur date d'utilisation : chacun applique son propre delai",
+  "latest_version": "1.0.5",
+  "version_code": 4,
+  "release_notes": "Cle API Gemini liee au compte + version 1.0.5\n\n- La cle est stockee sur le compte (chiffree au repos cote serveur) :\n  a la connexion elle pre-remplit l'app, plus besoin de la ressaisir\n  a chaque installation.\n- Un seul cote renseigne -> alimente l'autre automatiquement.\n- Deux cles differentes a la connexion -> dialogue affichant les deux\n  en clair, l'utilisateur choisit laquelle garder (appliquee des deux\n  cotes). Navigation bloquee tant que le choix n'est pas fait.\n- Modification de la cle dans l'app connectee -> poussee sur le compte.\n- versionCode 4 / versionName 1.0.5.",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
