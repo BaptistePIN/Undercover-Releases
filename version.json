@@ -1,7 +1,7 @@
 {
   "latest_version": "1.1",
   "version_code": 2,
-  "release_notes": "Version 1.1 (versionCode 2)",
+  "release_notes": "Correction du crash au demarrage apres reinstallation (AEADBadTagException)\n\nCause : allowBackup=true restaurait les prefs chiffrees apres une\nreinstallation alors que la cle maitre du Keystore avait ete supprimee\na la desinstallation -> dechiffrement impossible, crash en boucle.\n\n- PreferencesManager : auto-reparation, si le keyset est indechiffrable\n  le fichier securise est supprime et recree vierge (cle Gemini et\n  session a ressaisir) au lieu de crasher.\n- Manifest : allowBackup=false, les donnees ne survivent plus a une\n  desinstallation.",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
