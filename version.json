@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.5",
-  "version_code": 4,
-  "release_notes": "Notifications de demandes de partage + badges UI\n\n- ShareCheckWorker (WorkManager, toutes les 4h, reseau requis, skip sans\n  session) : detecte les nouvelles invitations recues et notifie (canal\n  dedie, anti-doublon par id memorise, groupement si plusieurs). Le tap\n  ouvre directement l'onglet Partage (extra EXTRA_OPEN_SHARES + route\n  word_history_shares).\n- Badge sur l'icone Historique de l'accueil (compteur d'invitations en\n  attente, cache en prefs rafraichi a chaque sync/chargement des\n  partages) et pastille sur l'onglet Partage.\n- Chargement des partages des l'entree sur l'ecran historique pour que\n  la pastille soit juste sans ouvrir l'onglet.",
+  "latest_version": "1.0.6",
+  "version_code": 5,
+  "release_notes": "Notifications de demandes de partage + badges UI\n\n- ShareCheckWorker (WorkManager, toutes les 4h, reseau requis, skip sans\n  session) : detecte les nouvelles invitations recues et notifie (canal\n  dedie, anti-doublon par id memorise, groupement si plusieurs). Le tap\n  ouvre directement l'onglet Partage.\n- Badge sur l'icone Historique de l'accueil (compteur d'invitations en\n  attente) et pastille sur l'onglet Partage.\n- Chargement des partages des l'entree sur l'ecran historique.",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
