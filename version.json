@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.6",
+  "latest_version": "1.0.8",
   "version_code": 5,
-  "release_notes": "Notifications de demandes de partage + badges UI\n\n- ShareCheckWorker (WorkManager, toutes les 4h, reseau requis, skip sans\n  session) : detecte les nouvelles invitations recues et notifie (canal\n  dedie, anti-doublon par id memorise, groupement si plusieurs). Le tap\n  ouvre directement l'onglet Partage.\n- Badge sur l'icone Historique de l'accueil (compteur d'invitations en\n  attente) et pastille sur l'onglet Partage.\n- Chargement des partages des l'entree sur l'ecran historique.",
+  "release_notes": "Fiabilisation Gemini + mode hors ligne complet\n\n- Modeles Gemini a jour (flash uniquement), quota 429 -> essai du modele\n  suivant au lieu d'abandonner, decouverte dynamique en dernier recours\n  et memorisee pour le processus\n- Timeouts reduits (15s/30s + borne dure 40s) : plus d'attente de\n  plusieurs minutes sur reseau instable\n- Thinking desactive sur les modeles 2.5-flash (les tokens de reflexion\n  vidaient maxOutputTokens et la reponse revenait vide)\n- Retry automatique sur micro-coupure DNS/connexion (faux \"pas de\n  connexion internet\")\n- Mode hors ligne : si Gemini est injoignable (ou cle absente), pioche\n  d'une paire locale hors cooldown (historique + mots des partenaires)",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
