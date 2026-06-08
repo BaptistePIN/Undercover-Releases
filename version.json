@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.8",
-  "version_code": 5,
-  "release_notes": "Fiabilisation Gemini + mode hors ligne complet\n\n- Modeles Gemini a jour (flash uniquement), quota 429 -> essai du modele\n  suivant au lieu d'abandonner, decouverte dynamique en dernier recours\n  et memorisee pour le processus\n- Timeouts reduits (15s/30s + borne dure 40s) : plus d'attente de\n  plusieurs minutes sur reseau instable\n- Thinking desactive sur les modeles 2.5-flash (les tokens de reflexion\n  vidaient maxOutputTokens et la reponse revenait vide)\n- Retry automatique sur micro-coupure DNS/connexion (faux \"pas de\n  connexion internet\")\n- Mode hors ligne : si Gemini est injoignable (ou cle absente), pioche\n  d'une paire locale hors cooldown (historique + mots des partenaires)",
+  "latest_version": "1.0.9",
+  "version_code": 6,
+  "release_notes": "Undercover v1.0.9\n\n- Base de mots commune : quand la limite Gemini est atteinte (ou la cle absente/invalide), les mots sont tires d'une base partagee entre tous les comptes, avec un bandeau indiquant la provenance.\n- Fiabilite hors ligne renforcee : les manches jouees sans connexion sont renvoyees automatiquement des que le reseau revient, meme apres fermeture de l'app.\n- Detection des mises a jour corrigee (versionCode).",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
