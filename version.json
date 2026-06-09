@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.1.0",
-  "version_code": 7,
-  "release_notes": "Imposteur v1.1.0\n\n- L'application s'appelle desormais « Imposteur ».\n- Nouvelle icone et ecran de demarrage au logo.\n- Synchronisation des reglages (cooldown, cle API Gemini) entre l'app et le site, dans les deux sens.\n- De nombreuses ameliorations d'accessibilite (contrastes, lecteurs d'ecran, accents).",
+  "latest_version": "1.1.1",
+  "version_code": 8,
+  "release_notes": "Imposteur v1.1.1\n\n- Possibilite de renommer un joueur enregistre (en plus de le supprimer).\n- Texte de saisie du prenom et suggestions de noms desormais bien lisibles, en theme clair comme sombre.",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
