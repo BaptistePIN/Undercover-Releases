@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.1.1",
-  "version_code": 8,
-  "release_notes": "Imposteur v1.1.1\n\n- Possibilite de renommer un joueur enregistre (en plus de le supprimer).\n- Texte de saisie du prenom et suggestions de noms desormais bien lisibles, en theme clair comme sombre.",
+  "latest_version": "1.1.2",
+  "version_code": 9,
+  "release_notes": "Imposteur v1.1.2\n\n- Correction de l'affichage en mode sombre : le fond restait blanc sur\n  certains ecrans (saisie du prenom et flux de jeu), rendant le texte\n  illisible. Tous les ecrans suivent desormais le bon fond, en theme\n  clair comme sombre.",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
