@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.1.4",
-  "version_code": 11,
-  "release_notes": "Version 1.1.4\n\n- L'application se connecte désormais au serveur en ligne (HTTPS).\n- Accents français corrigés dans toute l'interface.\n- Corrections de stabilité et améliorations internes.",
+  "latest_version": "1.1.5",
+  "version_code": 12,
+  "release_notes": "Version 1.1.5\n\n- Connexion et création de compte via une fenêtre dédiée dans les Paramètres.\n- Possibilité de revoir son mot pendant la phase de discussion.",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
