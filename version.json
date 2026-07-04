@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.1.5",
-  "version_code": 12,
-  "release_notes": "Version 1.1.5\n\n- Connexion et création de compte via une fenêtre dédiée dans les Paramètres.\n- Possibilité de revoir son mot pendant la phase de discussion.",
+  "latest_version": "1.1.6",
+  "version_code": 13,
+  "release_notes": "Version 1.1.6\n\n- Améliorations internes : stabilité, optimisation de l'APK et sécurité.\n- Pas de changement visible dans le jeu.",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
