@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.1.6",
-  "version_code": 13,
-  "release_notes": "Version 1.1.6\n\n- Améliorations internes : stabilité, optimisation de l'APK et sécurité.\n- Pas de changement visible dans le jeu.",
+  "latest_version": "1.1.7",
+  "version_code": 14,
+  "release_notes": "v1.1.7 : choix de catégorie + cache hors-ligne par catégorie",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
