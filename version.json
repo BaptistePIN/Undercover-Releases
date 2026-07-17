@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.1.8",
-  "version_code": 15,
-  "release_notes": "v1.1.8 : saut écran enregistrement si joueurs déjà connus + lien vers le site dans les paramètres",
+  "latest_version": "1.1.9",
+  "version_code": 16,
+  "release_notes": "v1.1.9 : historique et joueurs liés au compte, sync à la connexion/déconnexion",
   "download_url": "https://github.com/BaptistePIN/Undercover-Releases/releases/latest/download/undercover.apk",
   "min_supported_version": "1.0"
 }
